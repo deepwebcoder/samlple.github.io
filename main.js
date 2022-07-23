@@ -1,1 +1,5 @@
-aleart(1)
+<script>
+function myFunction() {
+  alert("Hello\nHow are you?");
+}
+</script>
