@@ -1,0 +1,106 @@
+<style>
+.box{
+ margin: 20px;
+padding:10px;
+text-align: justify;
+line-height: 2;
+border : 1px solid black;
+}
+.h2{
+pedding:0px
+margin:0px
+
+}
+
+.h4{
+pedding:2px
+margin:0px}
+.h5{
+margin:0px}
+.fill{
+ font-weight: bold;
+
+}
+</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form 10</title>
+<link rel="stylesheet" type="text/css" href="jquery-ui.min.css">
+</head>
+<!--<button><a href="Index.html" class="home"> Home</a> </button>-->
+
+<body>
+<div class="box">
+   <h4 align="center">Form‐III</h4>
+   <h2 align="center">Marriage Registration Certificate</h2>
+     <h4 align="center">[see rule 7]</h4>
+
+  Certified that <select name="village" class="fill">
+        <option selected hidden value=""class="text">Select</option>
+        <option value="Basawal">Sh.</option>
+        <option value="Bohron">Smt.</option>
+        <option value="Gatogra">Kmr. </option>
+          </select>
+		  
+		  
+                <input name="Username" type="text" class="fill" >
+  
+     
+  <select name="village" class="fill">
+        <option selected hidden value="">Select</option>
+        <option value="Basawal">S/o </option>
+        <option value="Bohron">D/o </option>
+        <option value="Gatogra">W/o</option>
+          </select>
+                <input name="Username" type="text" class="fill">
+  
+  in the registration records for the year(s) <input name="Username" type="text" class="fill" >   relating to (GRAM PANCHAYAT <select name="village" class="fill">
+        <option selected hidden value="">Select</option>
+        <option value="Basawal">KABAKALAN </option>
+        <option value="Bohron">CHEWA</option>
+
+  <option value="Bohron">KORO KAINTHRI</option>        </select>   ) of sub district Solan of district Solan of
+state Himachal Pradesh and found that the event relating to the birth/Death of <input name="Username" type="text" class="fill">  <select name="village" class="fill">
+        <option selected hidden value="">Select</option>
+        <option value="A">S/o </option>
+        <option value="B">D/o </option>
+        <option value="C">W/o</option>
+          </select>
+                <input name="Username" type="text" class="fill" > was not registered.
+				
+    <br><br><br>
+	Date : <input name="text" type="text" min ="2022-01-01" class="fill" id="datepicker">
+	<br>
+	
+	<P align="right">........................................</p>
+<br>
+ <P align="right">Signature of issuing authority</p>
+ 
+  <P align="right">Registrar (Birth & Death)</p>
+  
+ <P align="right">Seal</p>
+
+	
+	</div>
+	<br>
+	<!--<input name="Submit" type="submit" value="Get PDF" class="Button"></td>-->
+    
+	<script src="jquery-3.6.0.min.js"></script>
+	
+		<script src="jquery-ui.min.js"></script>
+
+<script>
+$(document).ready(function(){
+$('#datepicker').datepicker({
+dateFormat: "dd-mm-yy",
+changeMonth: true,
+changeYear: true,
+});
+})
+
+</script>	
+</body>
+</html>
