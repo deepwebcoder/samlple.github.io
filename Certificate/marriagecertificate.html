@@ -75,7 +75,7 @@ P.O			<input name="Username" type="text" class="fill">
 Tehsil		<input name="Username" type="text" class="fill">
 District	<input name="Username" type="text" class="fill">
 State		<input name="Username" type="text" class="fill">
-and the said marriage has been registered on <input name="Username" type="text" class="fill">
+and the said marriage has been registered on <input name="text" type="text" min ="2022-01-01" class="fill" id="datepicker1">
 under registration No <input name="Username" type="text" class="fill"></P>
 	<br><br>	
 
@@ -101,7 +101,16 @@ under registration No <input name="Username" type="text" class="fill"></P>
 		<script src="jquery-ui.min.js"></script>
 		
 		
+<script>
+$(document).ready(function(){
+$('#datepicker1').datepicker1({
+dateFormat: "dd-mm-yy",
+changeMonth: true,
+changeYear: true,
+});
+})
 
+</script>
 <script>
 $(document).ready(function(){
 $('#datepicker').datepicker({
