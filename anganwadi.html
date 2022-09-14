@@ -158,7 +158,29 @@ function printContent(el){
 						
 						
 						
-            </div></div>
+            </div>
+			<!-- Create Button for Print content of Div--->
+<script>
+function printContent(el){
+	var restorepage = document.body.innerHTML;
+	var printcontent = document.getElementById(el).innerHTML;
+	document.body.innerHTML = printcontent;
+	window.print();
+	document.body.innerHTML = restorepage;
+}
+</script>
+
+<button onclick="printContent('Contact')">Print Content</button>			
+                    <div class="col-xl-12">
+                        
+						
+						
+						
+						
+						
+						
+						
+						</div>
 			
         </header>
         
